@@ -7,6 +7,6 @@ export class AppController {
 
   @Get()
   getHello() {
-    return 'test 중 ';
+    return 'test 중 ?';
   }
 }
