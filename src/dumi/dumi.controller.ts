@@ -1,4 +1,9 @@
-import { Controller } from '@nestjs/common';
+import { Controller, Get } from '@nestjs/common';
 
 @Controller('dumi')
-export class DumiController {}
+export class DumiController {
+  @Get()
+  index() {
+    return 'dumi';
+  }
+}
